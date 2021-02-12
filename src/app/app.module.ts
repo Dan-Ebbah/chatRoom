@@ -8,12 +8,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginComponent } from './pages/login/login.component';
 import { SignupComponent} from './pages/signup/signup.component';
 import { ReactiveFormsModule} from '@angular/forms';
+import { ChatComponent } from './pages/chat/chat.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     SignupComponent,
+    ChatComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserAnimationsModule,
